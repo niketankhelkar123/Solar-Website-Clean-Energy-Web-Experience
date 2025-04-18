@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar-Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous" />
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Playwrite+AU+VIC+Guides&family=Playwrite+CO+Guides&family=Playwrite+IE+Guides&family=Playwrite+MX+Guides&family=Playwrite+US+Trad+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yuji+Mai&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+
+
+
+    <!--hero-section-->
+    <div class="container-fluid hero-section ">
+        <div class="container">
+            <div class="parent d-flex justify-content-between">
+           <div class="top-contact d-flex gap-4 d-flex ">
+            <div class="top-email"> <i class="fa-solid fa-envelope"></i>  niketankhelkar123@gmail.com</div>
+            <div class="top-email"><i class="fa-solid fa-phone"></i>  +91 7709617242</div>
+           </div>
+           <div class="d-flex gap-2 social-icon"><i class="fa-brands fa-square-facebook top-icon"></i> <i class="fa-brands fa-twitter top-icon"></i>  <i class="fa-brands fa-linkedin-in top-icon"></i>  <i class="fa-brands fa-instagram top-icon"></i></div>
+           </div>
+
+           <div class="row"> <!--navbar-->
+            <nav class="navbar navbar-expand-lg bg-light  py-3">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><i class="fa-solid fa-bolt"></i> Solor</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+
+<div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"><i class="fa-solid fa-bolt"></i> Solar</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <li class="nav-item me-4">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+      </li>
+      <li class="nav-item me-4">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item dropdown me-4">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Services
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown me-4">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Projects
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown me-4">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Pages
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </li>
+      <li class="nav-item me-4">
+        <a class="nav-link " aria-current="page" href="#">Blog</a>
+      </li>
+      <button class="btn nav-btn me-4" type="submit">Contact us</button>
+    </ul>
+  </div>
+</div>
+
+
+                  
+                </div>
+              </nav>
+           </div> <!--navbar-->
+
+           <!--hero-content-->
+           <div class="row">
+            <div class="hero-content">
+                <h6 class="mb-3"><i class="fa-solid fa-bolt"></i> Welcome to solor</h6>
+                <h1>Powering the Future With<br>
+                   <span> Renewable.</span></h1>
+                    <p>Duis ultricies, tort.about-contentor a accumsan fermentum, purus diam mollis velit, eu bibendum <br>ipsum erat quis leo. Vestibulum finibus, leo dapibus feugiat rutrum, augue lacus<br> rhoncus velit, vel scelerisque odio est.</p>
+                    <form class=" d-flex gap-3">
+                    <button type="btn" class="btn hero-content-btn1">Our Services</button>
+                    <button type="btn" class="btn  hero-content-btn2">Contact Now</button>
+                    </form>
+            </div>
+           </div>
+             <!--hero-content-->
+        </div>
+    </div>
+       <!--hero-section-->
+
+       <!--about section-->
+       <div class="container-fluid About-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                  <div class="about-img position-relative ">
+                    <img src="./about-1.jpg" class="img-fluid img1">
+                    <img src="./about-2.jpg" class="img-fluid img2 position-absolute top-100 start-50 translate-middle">
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="about-content">
+                    <h6 class="about-us mb-3"> <i class="fa-solid fa-bolt"></i> ABOUT US</h6>
+                    <h2 class="">About Green Energy Solar</h2>
+                    <p class="text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.<br><br>
+                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    </p>
+
+<div class="row mb-4">
+  <div class="col-12 col-lg-6">
+                    <div class="check-parent d-flex gap-2 mb-3">
+                      <div class="check-circle"><i class="fa-solid fa-circle-check "></i> </div>
+                      <div class="check-text"> 
+                        Solar Inverter Setup</div>
+                    </div>
+
+                    <div class="check-parent d-flex gap-2 mb-3">
+                      <div class="check-circle"><i class="fa-solid fa-circle-check "></i> </div>
+                      <div class="check-text"> 
+                        Solar Material Financing</div>
+                    </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                    <div class="check-parent d-flex gap-2 mb-3">
+                      <div class="check-circle"><i class="fa-solid fa-circle-check "></i> </div>
+                      <div class="check-text"> Battery Storage Solutions</div>
+                    </div>
+
+                    <div class="check-parent d-flex gap-2">
+                      <div class="check-circle"><i class="fa-solid fa-circle-check "></i> </div>
+                      <div class="check-text"> 24 X 7 Call & Chat Support
+                      </div>
+                    </div>
+                    </div>
+                    </div>
+                    
+
+
+
+
+
+                    <!-- <div class="check-click d-flex gap-5 mb-4">
+                      <div class="check  ">
+                        <h6 class="mb-4"><i class="fa-solid fa-circle-check check-circle"></i> Solar Inverter <span>Setup</span></h6>
+
+                            <h6> <i class="fa-solid fa-circle-check check-circle"></i> Solar Material <span>Financing</span></h6>
+                      </div>
+                      <div class="check "><h6 class="mb-4"><i class="fa-solid fa-circle-check check-circle"></i> Battery <span>Storage Solution</span></h6>
+                        <h6><i class="fa-solid fa-circle-check check-circle"></i> 24 X 7 Call & <span>Chat Support</span></h6>
+                  </div>
+                    </div> -->
+                    <button type="button" class="btn hero-content-btn1">More About</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+       </div>
+       <!--about section-->
+
+       <!--our-services-->
+       <div class="container-fluid our-services">
+        <div class="container">
+          <div class="our-services-title text-center">
+            <h6 class="mb-3"><i class="fa-solid fa-bolt"></i>  OUR SERVICES</h6>
+            <h2>Best Offer For Renewable Energy</h2>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <div class="our-services-img position-relative">
+                <img src="./post-1.jpg"  class="img-fluid ">
+
+                <div class="img-content position-absolute bottom-0 start-50 translate-middle-x">
+                  <h5>Solar Solutions</h5>
+                  <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="our-services-img position-relative">
+                <img src="./post-2.jpg"  class="img-fluid">
+                <div class="img-content position-absolute bottom-0 start-50 translate-middle-x">
+                  <h5>Solar Solutions</h5>
+                  <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="our-services-img position-relative">
+                <img src="./post-3.jpg"  class="img-fluid">
+                <div class="img-content position-absolute bottom-0 start-50 translate-middle-x">
+                  <h5>Solar Solutions</h5>
+                  <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+         <!--our-services-->
+
+         <!--our-process-->
+         <div class="container-fluid our-process-section">
+          <div class="container">
+            <div class="our-process-title text-center">
+              <h6 class="mb-3"><i class="fa-solid fa-bolt"></i>  OUR LATEST PROCESS</h6>
+              <h2>Our Work Process</h2>
+            </div>
+
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <div class="our-process-content text-center">
+                  <img src="./icon-step-1.svg" class="img-fluid">
+                  
+                  <h5 class="mb-4">Project Planning</h5>
+                  <p class="text-secondary">Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry.</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4">
+                <div class="our-process-content text-center">
+                  <img src="./icon-step-2.svg" class="img-fluid">
+                  
+                   <h5 class="mb-4">Project Planning</h5>
+                   <p class="text-secondary">Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry.</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4">
+                <div class="our-process-content text-center">
+                  <img src="./icon-step-1.svg" class="img-fluid">
+                  
+                    <h5 class="mb-4">Project Planning</h5>
+                    <p class="text-secondary">Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+           <!--our-process-->
+
+           <!--energy-process-->
+           <div class="container-fluid energy-process-section">
+            <div class="container">
+              <div class="row energy-row">
+                <div class="col-12 col-lg-6">
+                  <div class="energy-process-content">
+                    <h6 class="mb-3"><i class="fa-solid fa-bolt"></i> ENERGY PROCESS</h6>
+                    <h2>Best Solution For Your Solar
+                      Energy</h2>
+                      <p class="text-secondary">It is a long established fact that a reader will be distracted by the readable content of a page when t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="energy-process-progress mb-4">
+                    <h5 class="mb-3">Solar Panels </h5>
+                    <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style="width: 95%" >95%</div>
+                    </div>
+                    </div>
+                    <div class="energy-process-progress mb-4">
+                    <h5 class="mb-3">Hybrid Energy</h5>
+                    <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar " style="width: 80%">80%</div>
+                    </div>
+                    </div>
+                    <div class="energy-process-progress mb-4">
+                    <h5 class="mb-3">Marketing </h5>
+                    <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar " style="width: 70%">70%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            <!--energy-process-->
+
+            <!--call-section-->
+           
+                <div class="row call-section">
+                
+                  <div class="col-12 col-lg-4">
+                    <div class="call-img">
+                      <img src="./cta-image.jpg" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-8">
+                    <div class="call-content ">
+                      <h2>Have Questions? <span>Call Us</span> 800-001-658</h2>
+                      <p class="text-secondary">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+               <!--call-section-->
+
+               <!--WHY CHOOSE US-->
+               <div class="container-fluid why-choose-section">
+                <div class="container">
+                  <div class="why-choose text-center">
+                    <h6 mb-3><i class="fa-solid fa-bolt"></i>  WHY CHOOSE US</h6>
+                    <h2>Providing Solar Energy Solutions
+                    </h2>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-lg-3">
+                      <div class="card-item">
+                        <i class="fa-solid fa-house-chimney"></i>
+                        <h5>Efficiency & Power</h5>
+                        <p class="text-secondary">Ut ut eros risus. In luctus fringilla augue, eget ultricies purus. Sed mauris a nisl.</p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                      <div class="card-item">
+                        <i class="fa-solid fa-headphones-simple"></i>
+                        <h5>Efficiency & Power</h5>
+                        <p class="text-secondary">Ut ut eros risus. In luctus fringilla augue, eget ultricies purus. Sed mauris a nisl.</p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                      <div class="card-item">
+                        <i class="fa-solid fa-house-chimney"></i>
+                        <h5>Efficiency & Power</h5>
+                        <p class="text-secondary">Ut ut eros risus. In luctus fringilla augue, eget ultricies purus. Sed mauris a nisl.</p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                      <div class="card-item">
+                        <i class="fa-solid fa-headphones-simple"></i>
+                        <h5>Efficiency & Power</h5>
+                        <p class="text-secondary">Ut ut eros risus. In luctus fringilla augue, eget ultricies purus. Sed mauris a nisl.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </div>
+                     <!--WHY CHOOSE US-->
+
+                     <!--numbering-->
+                     <div class="container-fluid numbering-section">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-12 col-lg-3">
+                            <div class="number-parent d-flex gap-3">
+                              <div class="num-icon d-flex justify-content-center align-items-center"><i class="fa-solid fa-solar-panel num-ic"></i></div>
+                              <div class="num-number">
+                                <h4>1,000+</h4>
+                                <h6>Project Done</h6>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-3">
+                            <div class="number-parent d-flex gap-3">
+                              <div class="num-icon d-flex justify-content-center align-items-center"><i class="fa-solid fa-hands-holding-child num-ic"></i></div>
+                              <div class="num-number">
+                                <h4>1,200+</h4>
+                                <h6>Happy Clients</h6>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-3">
+                            <div class="number-parent d-flex gap-3">
+                              <div class="num-icon d-flex justify-content-center align-items-center"><i class="fa-solid fa-medal num-ic"></i></div>
+                              <div class="num-number">
+                                <h4>850+</h4>
+                                <h6>Award Winning</h6>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-3">
+                            <div class="number-parent d-flex gap-3">
+                              <div class="num-icon d-flex justify-content-center align-items-center"><i class="fa-solid fa-hand-sparkles num-ic"></i></div>
+                              <div class="num-number">
+                                <h4>1,100+</h4>
+                                <h6>Rating Customer</h6>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                     </div>
+                      <!--numbering-->
+
+                     <!--form-->
+                     <div class="container-fluid my-5">
+                      <div class="container form-section">
+                        <div class="row">
+                          <div class="col-12 col-lg-4">
+                            <div class="form-head">
+                              <h6 class="mb-3"><i class="fa-solid fa-bolt"></i> SOLAR CALCULATOR</h6>
+                              <h3>Your Solar Savings
+                                Calculator</h2>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-8">
+                            <div class="form-item">
+                              <div class="row">
+                                <div class="col py-2">
+                                  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                                </div>
+                                <div class="col py-2">
+                                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                                </div>
+                              </div><div class="row">
+                                <div class="col py-2">
+                                  <input type="text" class="form-control" placeholder="Email" aria-label="First name">
+                                </div>
+                                <div class="col py-2">
+                                  <input type="text" class="form-control" placeholder="Password" aria-label="Last name">
+                                </div>
+                              </div><div class="row mb-3">
+                                <div class="col py-2">
+                                  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                                </div>
+                                <div class="col py-2">
+                                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                                </div>
+                                </div>
+                                  <button type="button" class="btn form-button">Calculate</button>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                     </div>
+                      <!--form-->
+
+                      <!--recent-articles-->
+                     <!-- <div class="container-fluid">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-12 col-lg-4">
+                            <div class="articles">
+                              <img src="./post-1.jpg" class="img-fluid">
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-4">
+                            <div class="articles">
+                              <img src="./post-2.jpg" class="img-fluid">
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-4">
+                            <div class="articles">
+                              <img src="./post-3.jpg" class="img-fluid">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                     </div> -->
+                        <!--recent-articles-->
+
+                        <!--footer-->
+<div class="container-fluid footer">
+  <div class="container">
+    <div class="row greenbag">
+      <div class="col-12 col-lg-6">
+        <div class="footerText">
+          <h1>Stay with us On Social</h1>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 d-flex ">
+        
+      <div class="follow ">
+        <h5 class="followus">FOLLOW US:</h5>
+      </div>   
+      <div class="followicon ">
+        <i class="fa-brands fa-facebook footIcon me-2"></i></i>
+        <i class="fa-brands fa-twitter footIcon me-2"></i>
+        <i class="fa-brands fa-instagram footIcon me-2"></i>
+        <i class="fa-brands fa-youtube footIcon"></i>
+      </div>
+          <!-- <h5>Follow Us: <i class="fa-brands fa-facebook-f footIcon"></i> <i class="fa-brands fa-twitter footIcon"></i> <i class="fa-brands fa-instagram footIcon"></i> <i class="fa-brands fa-youtube footIcon"></i> </h5> -->
+
+      </div>
+    </div>
+
+
+    <div class="row mb-5">
+    <div class="col-12 col-lg-3">
+      <div class="footerdiv1">
+        <h3 class="mb-4 footh3"> Solar</h3>
+        <p >Proactively restore timely alignments after client environmentals</p>
+        <ul>
+          <li class="mb-3">--Contact</li>
+          <li class="mb-3"> <i class="fa-solid fa-phone"></i> +123(4567)890</li>
+          <li class="mb-3"><i class="fa-regular fa-envelope-open"></i> example@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-12 col-lg-3">
+      <div class="footdiv2">
+        <h3 class="mb-4">Company</h3>
+        <ul>
+          <li class="mb-3">Home</li>
+          <li class="mb-3">About Us</li>
+          <li class="mb-3">Our Services</li>
+          <li class="mb-3">Meet Our Team</li>
+          <li class="mb-3">Latest Blog</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-12 col-lg-3">
+      <div class="footdiv3">
+        <h3 class="mb-4">Quick Links</h3>
+        <ul>
+        <li class="mb-3">Testinomonials</li>
+        <li class="mb-3">Contact Us</li>
+        <li class="mb-3">Donations</li>
+        <li class="mb-3">FAQ</li>
+        <li class="mb-3">Careers</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-12 col-lg-3">
+      <div class="footdiv4">
+        <h3 class="mb-4">Newsletter</h3>
+        <p>Subscribe our Newsletter</p>
+        <div class="mb-3 ">
+          <input type="email" class="form-control p-3 mb-3 bg-transparent text-dark" id="exampleFormControlInput1" placeholder="name@example.com">
+          <div class="d-grid">
+            <button class="btn p-3 button6" type="button">Subscribe Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-12">
+      <div class="foot">
+        <p class="text-center p-4">Copyrights 2024 Echofy All rights reserved by <span>Dream IT.</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--footer-->
+
+
+
+
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous" ></script>
+</body>
+</html>
